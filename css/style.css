@@ -1,0 +1,73 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+  font-size: 16px;
+  display: block;
+  margin: 8px;
+
+}
+
+nav {
+  background-color: lightgray;
+  padding: 50px
+
+}
+
+.preview {
+  width: 375px;
+  height: 265px;
+
+}
+
+
+h1 {
+  font-style: normal;
+  font-size: 26px;
+  padding: 30px;
+}
+
+.baku {
+  background-image: url("/Users/e/projects/css-exercise-four/images/baku.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+
+}
+
+.london {
+  background-image: url("/Users/e/projects/css-exercise-four/images/london.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.madrid {
+  background-image: url("/Users/e/projects/css-exercise-four/images/madrid.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.rome {
+  background-image: url("/users/e/projects/css-exercise-four/images/rome.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 575px){
+   .preview {
+     width: 50%;
+     margin: 1%;
+
+  }
+}
+
+
+@media screen and (min-width: 991px){
+   .preview {
+     width: 25%;
+     margin: 1%;
+
+  }
+}
